@@ -1,8 +1,8 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
-  description: `This is my blog`,     // Site description
+  title: `몽실몽실 블로그`,          // Displayed in header
+  description: `꿈꾸는 Flutter 개발자`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
   siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
