@@ -2,16 +2,16 @@ const config = {
   /* Site
   ========================================= */
   title: `몽실몽실 블로그`,          // Displayed in header
-  description: `꿈꾸는 Flutter 개발자`,     // Site description
+  description: `박경호, 꿈꾸는 Flutter 개발자`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://devlog-kyungho.netlify.app/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
   ========================================= */
   author: `auaicn`,                             // Name shows on profile
-  profileDescription: "아직 진로를 정하지 못한 취준생",   // Shows under author name
+  profileDescription: "꿈꾸는 Flutter 개발자",   // Shows under author name
   profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Korea",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
@@ -45,7 +45,7 @@ const config = {
   /* More Custom Settings
   ========================================= */
   defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
-  showTimeToRead: false,                      // Shows time to read for each post in main page
+  showTimeToRead: true,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`,        // Favicon
   gaTrackingId: ``,                           // Your google analytics tracking id--i.e. UA-*****
