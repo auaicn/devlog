@@ -24,7 +24,7 @@ const config = {
     email: { emailAddress: "crorowslowpp@gmail.com", showHeaderIcon: true },
     github: { accountName: "auaicn", showHeaderIcon: true },
     facebook: { accountName: "", showHeaderIcon: true },
-    instagram: { accountName: "auaicn_", showHeaderIcon: true },
+    instagram: { accountName: "auaicn_", showHeaderIcon: false },
     twitter: { accountName: "", showHeaderIcon: true },
     linkedIn: { accountName: "", showHeaderIcon: true }, // Use URL after "linkedin.com/"
     medium: { accountName: "", showHeaderIcon: true }, // Use URL after "medium.com/@"
@@ -46,7 +46,7 @@ const config = {
   ========================================= */
   defaultTheme: "dark", // Options: dark / light -- applied to first visitors
   showTimeToRead: true, // Shows time to read for each post in main page
-  breakCodeLines: false, // Breaks long code lines instead of having horizontal scroll
+  breakCodeLines: true, // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`, // Favicon
   gaTrackingId: ``, // Your google analytics tracking id--i.e. UA-*****
   googleAdSenseId: ``, // Your google AdSense client id--i.e. ca-pub-****
