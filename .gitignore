@@ -34,7 +34,7 @@ bin/published.js
 # Build Path of Test Fixtures
 test/**/public
 .gatsby-context.js
-.DS_Store
+*.DS_Store
 public/*
 node_modules/
 e2e-tests/gatsby-pnp/
