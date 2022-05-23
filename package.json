@@ -1,10 +1,37 @@
 {
   "name": "gatsby-blog-mdx",
-  "author": "Ellis Min <ellismin.dev@gmail.com>",
+  "author": "Kyungho Park <dev.kyungho@gmail.com>",
   "license": "MIT",
   "private": true,
-  "description": "A simple starter for blog posts built with Gatsby js",
+  "description": "Own blog to log what i learned",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.19.3"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-blog-mdx",
+    "dart",
+    "fltter"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "dev": "gatsby develop",
+    "dev-mobile": "gatsby develop -H 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EllisMin/gatsby-blog-mdx"
+  },
+  "bugs": {
+    "url": "https://github.com/EllisMin/gatsby-blog-mdx/issues"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -56,27 +83,5 @@
   },
   "devDependencies": {
     "prettier": "^1.19.1"
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby-blog-mdx"
-  ],
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "dev": "gatsby develop",
-    "dev-mobile": "gatsby develop -H 0.0.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EllisMin/gatsby-blog-mdx"
-  },
-  "bugs": {
-    "url": "https://github.com/EllisMin/gatsby-blog-mdx/issues"
   }
 }
