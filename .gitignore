@@ -47,6 +47,7 @@ __diff_output__/
 .idea/
 .vscode/
 *.sw*
+*.DS_Store
 
 # misc
 .serverless/
